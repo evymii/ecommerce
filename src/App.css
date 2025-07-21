@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.category {
+  width: 1040px;
+  gap: 48px;
+}
+/* .footer {
+  display: flex;
+  width: 1440px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 43px;
+} */
+.grid-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 391px);
+  width: 1040px;
+  gap: 10px;
+  padding: 5px;
+}
+.card-info1 {
+  width: 210px;
+  height: 292px;
+  flex-shrink: 0;
+}
+.product7 {
+  width: 210px;
+  height: 292px;
+  flex-shrink: 0;
+}
